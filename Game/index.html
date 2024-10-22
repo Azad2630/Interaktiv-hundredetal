@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container">
+        
+        <div class="box top"><input type="text" id="input1" placeholder="+10"></div>
+        <div class="box left"><input type="text" id="input2" placeholder="-1"></div>
+        <div class="box center" id="center-box"></div>
+        <div class="box right"><input type="text" id="input3" placeholder="+1"></div>
+        <div class="box buttom"><input type="text" id="input4" placeholder="-10"></div>
+        <div class="box Start">
+            <button class="box-button" onclick="generateRandomNumber()">Start</button>
+        </div>
+        <div class="box Tjek">
+            <button class="box-button" onclick="validereInput()">Tjek</button>
+        </div>  
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
